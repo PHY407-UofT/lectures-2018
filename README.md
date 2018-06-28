@@ -14,7 +14,7 @@ At the very beginning of this class, you will need to clone this repository. Onc
 https://utoronto.syzygy.ca
 You will want to bookmark this link. Syzygy is a fantastic new service run by the Pacific Institute of Marthematical Sciences in Vancouver, and is hosted on Compute Canada's servers. Once you've logged in, start the server.
 
-2. Start a terminal. In the top right corner, below the "Logout" and "Control panel" buttons, hit "New". In the drop-down menu that appears, hit "Terminal".
+2. Start a terminal: in the top right corner, below the "Logout" and "Control panel" buttons, hit "New". In the drop-down menu that appears, hit "Terminal".
 
 3. Go to wherever you want the future folder to be located. It could be your home folder:
 
@@ -23,13 +23,17 @@ You will want to bookmark this link. Syzygy is a fantastic new service run by th
 or it could be a PHY407 folder that you created:
 
 ```cd ~```
+
 ```mkdir PHY407```
+
 ```cd PHY407```
 
 4. Clone the repository. If you do not have a GitHub account at this point, create one. You may also want to apply for a Student Developer Pack (https://education.github.com/pack), which gives you access to a lot of features that are not free otherwise.
 
 Somewhere on the top right web page of this repository, there is a green "Clone or download" button. Click on it, a URL shows up. Copy it, and in the terminal, type ```git clone``` and paste the url. It should look like
+
 ```git clone https://github.com/some-path/lectures```
+
 Hit return. You have cloned the repository.
 
 ## Subsequent steps.
