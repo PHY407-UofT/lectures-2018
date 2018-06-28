@@ -14,7 +14,7 @@ At the very beginning of this class, you will need to clone this repository. Onc
 https://utoronto.syzygy.ca
 You will want to bookmark this link. Syzygy is a fantastic new service run by the Pacific Institute of Marthematical Sciences in Vancouver, and is hosted on Compute Canada's servers. Once you've logged in, start the server.
 
-2. Start a terminal. In the top right corner, below the "Logout" and "Control panel" buttons, hit "New", and in the drop-down menu, hit "Terminal".
+2. Start a terminal. In the top right corner, below the "Logout" and "Control panel" buttons, hit "New". In the drop-down menu that appears, hit "Terminal".
 
 3. Go to wherever you want the future folder to be located. It could be your home folder:
 
@@ -26,15 +26,15 @@ or it could be a PHY407 folder that you created:
 ```mkdir PHY407```
 ```cd PHY407```
 
-4. Clone the repository. If you do not have a GitHub account at this point, create one. GitHub has a free basic type of account, but people can pay to get more features. As a student, you have access to some paid features for free, so let them know you are one!
+4. Clone the repository. If you do not have a GitHub account at this point, create one. You may also want to apply for a Student Developer Pack (https://education.github.com/pack), which gives you access to a lot of features that are not free otherwise.
 
-**Somewhere on this web page**, there is a "clone" button. Click on it, and a command containing a URL shows up. It should look like
-```git clone https://some.url.github.org```
-Copy this command, and paste it in the terminal. Hit return. You have cloned the repository.
+Somewhere on the top right web page of this repository, there is a green "Clone or download" button. Click on it, a URL shows up. Copy it, and in the terminal, type ```git clone``` and paste the url. It should look like
+```git clone https://github.com/some-path/lectures```
+Hit return. You have cloned the repository.
 
 ## Subsequent steps.
 
-1. I will update this repo frequently. Every time you want to access the freshest version of the material, go to a terminal (repeat step 2 above if needed), go to the folder where the repo is (```cd ~/your-repo-path/```) and type:
+1. I will update this repo frequently. Every time you want to access the freshest version of the material, go to a terminal (repeat step 2 above if needed), go to the folder where the repo is (```cd ~/bla-bla/lectures```) and type:
 
 ```git pull```
 
