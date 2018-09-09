@@ -4,7 +4,7 @@
 
 1. Go to https://utoronto.syzygy.ca, log in with your UTorID, and start the server.
 2. Near the top-right-hand corner of the home menu, hit the drop-down menu "New", and click on Terminal.
-3. in the terminal, create a PHY293 (or whatever) folder and go there:
+3. in the terminal, create a PHY407 (or whatever) folder and go there:
 
 `mkdir PHY407`
 
