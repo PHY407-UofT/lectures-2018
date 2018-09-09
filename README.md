@@ -6,15 +6,15 @@
 2. Near the top-right-hand corner of the home menu, hit the drop-down menu "New", and click on Terminal.
 3. in the terminal, create a PHY293 (or whatever) folder and go there:
 
-`mkdir PHY293`
+`mkdir PHY407`
 
-`cd PHY293`
+`cd PHY407`
 
 4. In there, clone the repo of my chapters:
 
-`git clone https://github.com/PHY293-2018/Chapters.git`
+`git clone https://github.com/PHY407-2018/lectures.git`
 
-* This should create a new folder called `Chapters`, in which all the chapters of my lecture notes will be located.
+* This should create a new folder called `lectures`, in which all the chapters of my lecture notes will be located.
 
 ## Refreshing the lecture notes
 
