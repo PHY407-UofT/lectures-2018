@@ -12,7 +12,7 @@
 
 4. In there, clone the repo of my chapters:
 
-`git clone https://github.com/PHY407-2018/lectures.git`
+`git clone https://github.com/PHY407-UofT/lectures.git`
 
 * This should create a new folder called `lectures`, in which all the chapters of my lecture notes will be located.
 
