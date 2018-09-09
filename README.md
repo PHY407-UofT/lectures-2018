@@ -1,49 +1,36 @@
-# lectures
+# Instructions to use this repository with syzygy
 
-This repository contains the material for the PHY407 lectures. I will update it as the class goes. How to retrieve the lectures will not be too much different from "hitting" "sync" one in a while, except for the very first time you "initiate" "downloading" the material.
+## If first cloning into syzygy:
 
-I am using all these annoying double quotes because I will be using git, and these words are not part of the git vocabulary. You will not "sync" or "downwload" the material, you will pull it from the repository. And you will not "initiate downloading the material", you will clone this repo(sitory). And with the procedure I am about to describe, you will not "hit" any button, you will type command lines in a remote terminal (no need to install anything).
+1. Go to https://utoronto.syzygy.ca, log in with your UTorID, and start the server.
+2. Near the top-right-hand corner of the home menu, hit the drop-down menu "New", and click on Terminal.
+3. in the terminal, create a PHY293 (or whatever) folder and go there:
 
-The procedure I am about to describe will work for anyone in the class, on any OS (Windows, OSX, Unix, Android, iOS) or platform (laptops, tablets, even smartphones for the most masochistically-inclined of you). The reason is simple: all you need is a browser and an internet connection. It is a minimally working example. You could also do everything on your computer and use a git client with a graphical user interface (google 'best git client for [insert your OS here]'), but if you know how to work your way around it, my guess is that you don't need these instructions.
+`mkdir PHY293`
 
-## Initial steps
+`cd PHY293`
 
-At the very beginning of this class, you will need to clone this repository. Once you have cloned it, you will be able to easily update the contents as the course progresses.
+4. In there, clone the repo of my chapters:
 
-1. First of all, go there and log in with your utorid:
-https://utoronto.syzygy.ca
-You will want to bookmark this link. Syzygy is a fantastic new service run by the Pacific Institute of Marthematical Sciences in Vancouver, and is hosted on Compute Canada's servers. Once you've logged in, start the server.
+`git clone https://github.com/PHY293-2018/Chapters.git`
 
-2. Start a terminal: in the top right corner, below the "Logout" and "Control panel" buttons, hit "New". In the drop-down menu that appears, hit "Terminal".
+* This should create a new folder called `Chapters`, in which all the chapters of my lecture notes will be located.
 
-3. Go to wherever you want the future folder to be located. It could be your home folder:
+## Refreshing the lecture notes
 
-```cd ~```
+The chapter folders are still empty, because I will probably change the content from last year
+As the class progresses, I will of course add chapters, or modify the chapters, correct typos, etc.
 
-or it could be a PHY407 folder that you created:
+5. To get the latest updates, repeat steps 1-3 above.
+6. If you want to modify the notebooks and keep your mods while refreshing my own content, I suggest you create your own "fork" and work on it. You will work on your fork, and I will still dispense my wisdom through my original project. How to nagivate between forks, remotes, etc? I am afraid you are going to have to look it up yourself.
+7. If you just want to have my content up-to-date, execute code, and then wait for my next delivery, just type
 
-```cd ~```
+`git fetch`
 
-```mkdir PHY407```
+in the Terminal, where you left at the end of step 3.
 
-```cd PHY407```
+## Opening a Jupyter notebook:
 
-4. Clone the repository. If you do not have a GitHub account at this point, create one. You may also want to apply for a Student Developer Pack (https://education.github.com/pack), which gives you access to a lot of features that are not free otherwise.
-
-Somewhere on the top right web page of this repository, there is a green "Clone or download" button. Click on it, a URL shows up. Copy it, and in the terminal, type ```git clone``` and paste the url. It should look like
-
-```git clone https://github.com/some-path/lectures```
-
-Hit return. You have cloned the repository.
-
-## Subsequent steps.
-
-1. I will update this repo frequently. Every time you want to access the freshest version of the material, go to a terminal (repeat step 2 above if needed), go to the folder where the repo is (```cd ~/bla-bla/lectures```) and type:
-
-```git pull```
-
-and that's it!
-
-2. Opening the material files: go to your syzygy home page, navigate to the folder where the repo is located. The lecture material is mostly in the form of ```.ipynb``` files. You can open then and read them from syzygy directly. All the code will run on the Compute Canada servers, remotely.
-
-**Procedure to fix edits?**
+8. Repeat steps 1-3 above.
+9. Repeat step 7 above, probably.
+10. You can navigate to the Jupyter file, using the graphical interface of the home menu of syzygy. You are looking for a `.ipynb` file.
