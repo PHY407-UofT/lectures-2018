@@ -10,16 +10,16 @@
 
 `cd PHY407`
 
-4. In there, clone the repo of my chapters:
+4. In there, clone the repo of my lectures:
 
 `git clone https://github.com/PHY407-UofT/lectures.git`
 
-* This should create a new folder called `lectures`, in which all the chapters of my lecture notes will be located.
+* This should create a new folder called `lectures`, in which my lecture notes will be located.
 
 ## Refreshing the lecture notes
 
-The chapter folders are still empty, because I will probably change the content from last year
-As the class progresses, I will of course add chapters, or modify the chapters, correct typos, etc.
+The lectures folders are still empty, because I will probably change the content from last year
+As the class progresses, I will of course add or modify lectures, correct typos, etc.
 
 5. To get the latest updates, repeat steps 1-3 above.
 6. If you want to modify the notebooks and keep your mods while refreshing my own content, I suggest you create your own "fork" and work on it. You will work on your fork, and I will still dispense my wisdom through my original project. How to nagivate between forks, remotes, etc? I am afraid you are going to have to look it up yourself.
