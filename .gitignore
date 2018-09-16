@@ -4,3 +4,5 @@
 *.log
 *.dvi
 *.ps
+*.zip
+.ipynb_checkpoint/*
