@@ -1,0 +1,8 @@
+\BOOKMARK [1][-]{section.1}{Intro}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{odeint}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{Euler method}{}% 3
+\BOOKMARK [1][-]{section.3}{Runge-Kutta methods}{}% 4
+\BOOKMARK [2][-]{subsection.3.1}{2nd-order Runge-Kutta \(RK2\) method}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.2}{4th-order Runge-Kutta method \(RK4\)}{section.3}% 6
+\BOOKMARK [1][-]{section.4}{Leapfrog methods}{}% 7
+\BOOKMARK [1][-]{section.5}{Leapfrog to Verlet}{}% 8
